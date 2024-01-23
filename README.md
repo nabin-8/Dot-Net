@@ -18,6 +18,9 @@
 |---|
 
 4. Registration List
+- Update list
+- Edit list
+- Delete list
 
 |![img1](/src/img4.png)|
 |---|
