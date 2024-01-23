@@ -1,0 +1,74 @@
+﻿*{
+    margin:0;
+    padding:0;
+    font-family:'Fira Code';
+}
+
+body {
+    background-color:lightgray;
+}
+
+#navContainer {
+    width: auto;
+    height: 160px;
+    display: flex;
+    color: white;
+    background: linear-gradient(40deg, #228B22, #40826D);
+}
+
+#container{
+    margin:20px;
+    width:67%;
+    height:110px;
+    border-bottom:1px dotted white;
+}
+
+#conButtons {
+    height: 110px;
+    float: right;
+    margin: 20px;
+    display: flex;
+    gap:15px;
+    align-items: center;
+}
+
+.Clickbuttons{
+    height:36px;
+    background-color:black;
+    padding:2px;
+    border-radius:4px;
+    color:white;
+    text-decoration:none;
+    display:flex;
+    align-items:center;
+}
+#mainContainer{
+    border:1px dotted black;
+    margin-left:12%;
+    margin-right:12%;
+    margin-top:50px;
+    height:500px;
+    border-radius:4px;
+}
+
+.contaierClass {
+    color: #40826D;
+    margin:4px;
+}
+
+#btnLogout {
+    height: 40px;
+    width: 110px;
+    margin-top: 30%;
+    margin-left: 80%;
+    font-size: 18px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+
+    #btnLogout:hover {
+        cursor: pointer;
+        background: linear-gradient(40deg, #228B22, #40826D);
+    }
